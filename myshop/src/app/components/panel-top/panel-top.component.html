@@ -1,18 +1,33 @@
 <div>
+  <button routerLink="/adm_dashboard">Panel Administratora</button>
+  <div class="right">
+    <button id="cartBtn" routerLink="/cart">
+        {{getCartQuanity()}}
+    </button><img src="https://i.pinimg.com/originals/5d/26/a1/5d26a173f443cbd190e34481438d474b.png" class="icon" alt="">
+    </div>
     <div style="display: flex;flex-direction: row;">
-        <img src="https://via.placeholder.com/100" routerLink="/landing" alt="">
-        <h2>Sklep z softłerem</h2>
+        <img src="https://logos.gpcdn.pl/loga-firm/20099454/2c580000-43a8-f403-8016-08d887d66dd7_280x280.jpg" routerLink="/landing" alt="" class="center">
     </div>
 
-    <button routerLink="/adm_dashboard">Panel Administratora</button>
 
+
+
+    <div style="display: flex; justify-content: center;">
+      <h2 >Fake Sklepik</h2>
+    </div>
     <div style="display: flex; justify-content: center;">
         <input type="text" [(ngModel)]="this.mainService.productsRequest.name">
         <button (click)="this.mainService.getProducts(this.mainService.productsRequest)" routerLink="/products">Szukaj Produktu</button>
     </div>
-    <div>
-        <button id="cartBtn" routerLink="/cart">
-            {{getCartQuanity()}}
-        </button>
+
+
+<br><hr><br>
+
+    <div class="center" id="little">
+      <div id="image-container">
+
+      </div>
     </div>
 </div>
+
+

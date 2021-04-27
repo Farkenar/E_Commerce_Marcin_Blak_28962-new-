@@ -1,8 +1,15 @@
 #productsTable{
+  color:white;
   img{
     width:180px;
   }
+  tr{
+    opacity:80%;
+  }
   td{
+    color:black;
+    background: rgb(241, 241, 250);
     padding:20px;
+
   }
 }

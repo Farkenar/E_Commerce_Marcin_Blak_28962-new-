@@ -1,0 +1,33 @@
+img{
+  width:10%;
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icon{
+  width:30pt;
+}
+.right {
+  position: absolute;
+  right: 0px;
+  width: 70pt;
+  border: 3px solid #73AD21;
+  opacity: 80%;
+  padding: 10px;
+  float:right;
+}
+#little{
+  width:30%;
+
+}
+
+
+#image-container {
+  background: url("https://image.freepik.com/free-vector/let-s-play-neon-sign_104045-80.jpg") left top no-repeat;
+  box-shadow: 50px 50px 75px 0 rgba(33,33,33,255) inset, -50px -50px 75px 0 rgba(33,33,33,255) inset;
+  width: 600px;
+  height:300px;
+  }

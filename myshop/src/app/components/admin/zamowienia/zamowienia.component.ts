@@ -6,11 +6,11 @@ import * as pluginDataLabels from 'chartjs-plugin-datalabels';
 import { Label } from 'ng2-charts';
 
 @Component({
-  selector: 'app-dashboard',
-  templateUrl: './dashboard.component.html',
-  styleUrls: ['./dashboard.component.scss']
+  selector: 'app-zamowienia',
+  templateUrl: './zamowienia.component.html',
+  styleUrls: ['./zamowienia.component.scss']
 })
-export class DashboardComponent implements OnInit {
+export class ZamowieniaComponent implements OnInit {
 
   constructor(public mainService: MainService) { }
 
