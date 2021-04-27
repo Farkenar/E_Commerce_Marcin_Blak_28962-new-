@@ -1,6 +1,6 @@
 <app-panel-top></app-panel-top>
 
-
+<br><hr><br>
 <div class="products">
     <table style="margin:0 auto;" id="productsTable">
         <thead *ngIf="this.mainService.products">
@@ -10,7 +10,7 @@
                 <th>akcje</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="tablecontent">
             <ng-container *ngFor="let product of this.mainService.products?.productsTable">
                 <tr style="background-color: whitesmoke;">
                     <td><img src="{{product.thumbnail}}" alt=""></td>

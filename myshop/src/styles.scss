@@ -6,3 +6,37 @@ body{
 
 }
 
+#productsTable{
+  color:white;
+
+  img{
+    width:180px;
+  }
+  tr{
+    text-align: center;
+    background-color: rgba(231,96,9,80%);
+  }
+  td{
+    color:black;
+    background-color:rgba(0,133,198,80%) ;
+    padding:20px;
+    font-size:large;
+    border:3px,solid,white;
+
+  }
+
+}
+button{
+  background-color:rgb(231,96,9);
+  color:rgb(55, 54, 59);
+}
+button:hover{
+  background-color:rgb(0,133,198);
+  color:white;
+  transition: 0.3s;
+}
+input{
+  background-color:rgba(255,255,255,80%);
+  color:black;
+  font-weight: bold;
+}
